@@ -1,1 +1,42 @@
-$primaryColor: #ff4363;  
+
+/**** Colors ****/
+$primaryColor: #ff4363;
+
+/**** Fonts ****/
+
+$primaryFont: 'Roboto', sans-serif;
+
+/**** Images ****/
+
+$heroImage: url("./img/heroImage.png");
+
+@font-face {
+    font-family: $primaryFont;
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+}
+
+/**** Global ****/
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    font-family: $primaryFont;
+    font-size:10px;
+}
+
+
+/**** Components ****/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+
+@import "components/buttons";
+
+@import "components/hero";
+@import "components/advantages";
+
+@import "header"; 

@@ -1,10 +1,14 @@
+<?php get_header() ?>
+
 <section class="hero">
 
     <div class="hero__content">
         <h1 class="hero__title">Download Our app and enjoy!</h1>
         <p class="hero__p">Contrary to popular belief, Lorem Ipsum is not simply randa text. has roots in a piece of classical Latin literature from BC, making it over 2000 years old. Richard McClintock.</p>
-        <button href="#" class="btn">Download App</button>
-        <a href="#" class="">Watch Video</a>
+        <div class="hero__buttonsWrapper">
+            <button class="btn btn--white">Download App</button>
+            <button class="btn btn--transparent" href="#"><i class="fa-solid fa-play"></i> Watch Video</button>
+        </div>
     </div>
 
 </section>
@@ -14,17 +18,30 @@
 
     <article class="advantagesBox">
         <div class="advantagesBox__icon">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/icon-1.png" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/icons/drafting.png" alt="Draft">
         </div>
         <h3 class="advantagesBox__title">Awesome design</h3>
         <p class="advantagesBox__p">Awesome Design Lorem ipsum dolor sit amet into consectetur adipiscing elit, sed do eiusmod tempor incid.</p>
-
+    </article>
+    <article class="advantagesBox">
+        <div class="advantagesBox__icon">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/icons/edit.png" alt="">
+        </div>
+        <h3 class="advantagesBox__title">Awesome design</h3>
+        <p class="advantagesBox__p">Awesome Design Lorem ipsum dolor sit amet into consectetur adipiscing elit, sed do eiusmod tempor incid.</p>
+    </article>
+    <article class="advantagesBox">
+        <div class="advantagesBox__icon">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/icons/security.png" alt="">
+        </div>
+        <h3 class="advantagesBox__title">Awesome design</h3>
+        <p class="advantagesBox__p">Awesome Design Lorem ipsum dolor sit amet into consectetur adipiscing elit, sed do eiusmod tempor incid.</p>
     </article>
 
 
 </section>
 
-
+<!-- 
 <section class="design">
 
     <img src="" alt="">
@@ -69,4 +86,4 @@
         <button class="btn btn-classic">Contact Us</button>
     </article>
 
-</section>
+</section> -->
