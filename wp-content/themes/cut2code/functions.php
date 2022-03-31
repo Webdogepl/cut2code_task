@@ -18,9 +18,8 @@
 
 function register_styles()
 {
-
 	wp_enqueue_style('styles', get_stylesheet_uri());
-	wp_enqueue_style('minified', get_template_directory() . 'styles.min.css');
+	wp_enqueue_style('minified', get_template_directory_uri() . '/style.min.css');
 }
 add_action('wp_enqueue_scripts', 'register_styles');
 
