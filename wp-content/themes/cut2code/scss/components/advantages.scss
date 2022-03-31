@@ -1,0 +1,14 @@
+.advantages {
+
+    display:flex;
+    flex-wrap: wrap;
+    place-content: center;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-block:10%;
+
+    .advantagesBox {
+        text-align: center;
+        width:35%;
+    }
+}
