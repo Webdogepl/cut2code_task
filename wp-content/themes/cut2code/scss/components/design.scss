@@ -1,0 +1,56 @@
+.design {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 6%;
+	font-family: $poppins;
+
+	&__right {
+		padding-top: 3rem;
+		max-width: 50%;
+		box-sizing: border-box;
+		padding-inline: 5%;
+	}
+
+	&__title {
+		font-size: 6em;
+		margin-bottom: 30px;
+		font-family: $primaryFont;
+		margin-top: 2rem;
+	}
+
+	&__p {
+		font-size: 1.8em;
+		line-height: 3rem;
+	}
+
+	&__list {
+		font-size: 1.8em;
+		padding-left: 0;
+		line-height: 4.7rem;
+		margin-top: 2.5rem;
+	}
+
+	&__listItem {
+		list-style-type: none;
+
+		&::before {
+			content: "";
+			background: $primaryColor;
+			display: inline-block;
+			width: 1.2rem;
+			height: 1.2rem;
+			border-radius: 100%;
+			margin-right: 1em;
+		}
+	}
+
+	&__button {
+		font-family: $primaryFont;
+		font-size: 2.4rem;
+		font-weight: bold;
+		padding: 0.8em 1.6em;
+		margin-top: 0.8em;
+	}
+}

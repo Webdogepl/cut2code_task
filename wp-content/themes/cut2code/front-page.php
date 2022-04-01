@@ -20,44 +20,54 @@
         <div class="advantagesBox__icon">
             <img src="<?php echo get_template_directory_uri(); ?>/img/icons/drafting.png" alt="Draft">
         </div>
-        <h3 class="advantagesBox__title">Awesome design</h3>
-        <p class="advantagesBox__p">Awesome Design Lorem ipsum dolor sit amet into consectetur adipiscing elit, sed do eiusmod tempor incid.</p>
+        <h3 class="advantagesBox__title">Awesome Design</h3>
+        <p class="advantagesBox__p">Lorem ipsum dolor sit amet into consectetur adipiscing elit, sed do eiusmod tempor incid.</p>
     </article>
     <article class="advantagesBox">
         <div class="advantagesBox__icon">
             <img src="<?php echo get_template_directory_uri(); ?>/img/icons/edit.png" alt="">
         </div>
-        <h3 class="advantagesBox__title">Awesome design</h3>
-        <p class="advantagesBox__p">Awesome Design Lorem ipsum dolor sit amet into consectetur adipiscing elit, sed do eiusmod tempor incid.</p>
+        <h3 class="advantagesBox__title">Easy to Edit</h3>
+        <p class="advantagesBox__p">Lorem ipsum dolor sit amet into consectetur adipiscing elit, sed do eiusmod tempor incid.</p>
     </article>
     <article class="advantagesBox">
         <div class="advantagesBox__icon">
             <img src="<?php echo get_template_directory_uri(); ?>/img/icons/security.png" alt="">
         </div>
-        <h3 class="advantagesBox__title">Awesome design</h3>
-        <p class="advantagesBox__p">Awesome Design Lorem ipsum dolor sit amet into consectetur adipiscing elit, sed do eiusmod tempor incid.</p>
+        <h3 class="advantagesBox__title">Fully Secured</h3>
+        <p class="advantagesBox__p">Lorem ipsum dolor sit amet into consectetur adipiscing elit, sed do eiusmod tempor incid.</p>
     </article>
 
 
 </section>
 
-<!-- 
+
 <section class="design">
 
-    <img src="" alt="">
-    <article>
-        <h2 class="design__title">Design</h2>
-        <p class="design__p">In consequat, quam id sodales hendrerit, eros mi molestie leo an lacinia risus neque tristique augue. Proin tempus urna vel congue elementum. Vestibulum euismod accumsan.</p>
-        <ul>
-            <li>Lorem ipsum dolor sit amet into consectetur adispicing elit</li>
-            <li>Lorem ipsum dolor sit amet into consectetur.</li>
-            <li>Lorem ipsum dolor sit amet into consectetur adispicing.</li>
-        </ul>
-        <button class="btn btn--classic">Learn more</button>
-    </article>
+    <div class="design__left">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/designBackground.png" alt="Hand with pen">
+
+    </div>
+
+    <div class="design__right">
+
+        <img class="design__icon" src="<?php echo get_template_directory_uri(); ?>/img/icons/design.png" alt="icon">
+        <article>
+            <h2 class="design__title">We Designed Perfect
+                App for You</h2>
+            <p class="design__p">In consequat, quam id sodales hendrerit, eros mi molestie leo an lacinia risus neque tristique augue. Proin tempus urna vel congue elementum. Vestibulum euismod accumsan.</p>
+            <ul class="design__list">
+                <li class="design__listItem">Lorem ipsum dolor sit amet into consectetur adispicing elit</li>
+                <li class="design__listItem">Lorem ipsum dolor sit amet into consectetur.</li>
+                <li class="design__listItem">Lorem ipsum dolor sit amet into consectetur adispicing.</li>
+            </ul>
+            <button class="btn design__button">Learn More</button>
+
+        </article>
+    </div>
 
 </section>
-
+<!-- 
 <section class="faq">
 
     <h2 class="faq__title">Have any Question?</h2>
