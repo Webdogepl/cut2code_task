@@ -1,0 +1,35 @@
+.statistics {
+	color: white;
+	width: 73%;
+	margin-block: 6%;
+	margin-inline: auto;
+
+	.statistics__container {
+		background: #ff4363;
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		box-sizing: border-box;
+		padding-inline: 8.5%;
+		border-radius: 10px;
+		padding-bottom: 5rem;
+	}
+
+	.statisticsBox {
+		box-sizing: border-box;
+		padding: 3em 0;
+		text-align: center;
+
+		&__title {
+			font-size: 6rem;
+			font-family: $primaryFont;
+			margin-top: 6rem;
+			margin-bottom: 0;
+		}
+
+		&__desc {
+			font-size: 1.8rem;
+			font-weight: bold;
+		}
+	}
+}

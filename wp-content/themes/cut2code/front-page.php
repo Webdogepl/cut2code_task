@@ -100,9 +100,23 @@
 
 <section class="statistics">
 
-    <div class="statisticsBox">
-        <h4 class="statisticsBox__number">12M+</h4>
-        <p class="statisticsBox__desc">Downloads</p>
+    <div class="statistics__container">
+        <div class="statisticsBox">
+            <h4 class="statisticsBox__title">12M+</h4>
+            <p class="statisticsBox__desc">Downloads</p>
+        </div>
+        <div class="statisticsBox">
+            <h4 class="statisticsBox__title">18M+</h4>
+            <p class="statisticsBox__desc">Active Users</p>
+        </div>
+        <div class="statisticsBox">
+            <h4 class="statisticsBox__title">4.9</h4>
+            <p class="statisticsBox__desc">Ratings</p>
+        </div>
+        <div class="statisticsBox">
+            <h4 class="statisticsBox__title">300 M+</h4>
+            <p class="statisticsBox__desc">Happy Clients</p>
+        </div>
     </div>
 
 </section>
