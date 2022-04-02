@@ -1,0 +1,22 @@
+.contactUs {
+	width: 40%;
+	margin-inline: auto;
+	text-align: center;
+
+	&__title {
+		font-size: 6rem;
+		font-family: $primaryFont;
+		margin-bottom: 3rem;
+	}
+
+	&__p {
+		font-size: 1.8rem;
+		font-family: $poppins;
+	}
+
+	.btn {
+		margin-top: 2rem;
+		font-size: 2.4rem;
+		padding: 2rem 4rem;
+	}
+}
