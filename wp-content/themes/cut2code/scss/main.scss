@@ -1,48 +1,46 @@
-
 /**** Colors ****/
 $primaryColor: #ff4363;
 
 /**** Fonts ****/
 
-$primaryFont: 'Roboto', sans-serif;
-$poppins: 'Poppins', sans-serif;
+$primaryFont: "Roboto", sans-serif;
+$poppins: "Poppins", sans-serif;
 
 /**** Images ****/
 
 $heroImage: url("./img/heroImage.png");
 
 @font-face {
-    font-family: $primaryFont;
-    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+	font-family: $primaryFont;
+	src: url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
 }
 
 @font-face {
-    font-family: $poppins;
-    src: url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+	font-family: $poppins;
+	src: url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 }
 
 /**** Global ****/
 
-html,body
-{
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
-    font-family: $primaryFont;
-    font-size:10px;
+html,
+body {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+	font-family: $primaryFont;
+	font-size: 10px;
 }
-
 
 /**** Components ****/
 
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap");
 
 @import "components/buttons";
 
 @import "components/hero";
 @import "components/advantages";
 @import "components/design";
+@import "components/faq";
 
-@import "header"; 
+@import "header";

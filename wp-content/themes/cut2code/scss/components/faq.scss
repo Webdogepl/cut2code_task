@@ -1,0 +1,44 @@
+.faq {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	font-family: $poppins;
+	align-items: flex-end;
+	margin-block: 5%;
+	margin-inline: 13.5%;
+
+	&__left {
+		width: 50%;
+	}
+
+	&__right {
+		width: 50%;
+		text-align: center;
+	}
+
+	&__title {
+		font-size: 6rem;
+		margin-top: 2rem;
+		margin-bottom: 3rem;
+		font-family: $primaryFont;
+	}
+
+	&__subtitle {
+		font-size: 1.8rem;
+		margin-bottom: 4rem;
+	}
+
+	&__accordion {
+		margin-top: 10px;
+
+		&__question {
+			color: $primaryColor;
+			font-size: 2.4rem;
+			margin-bottom: 2rem;
+		}
+
+		&__answer {
+			font-size: 1.6rem;
+		}
+	}
+}
