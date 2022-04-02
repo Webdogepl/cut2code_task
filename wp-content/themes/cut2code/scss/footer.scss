@@ -1,0 +1,36 @@
+.footer {
+	background: black;
+	font-family: $poppins;
+	color: white;
+	margin-top: 11rem;
+	padding: 2.5rem 0;
+	font-size: 1.8rem;
+
+	&__row {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 73%;
+		margin-inline: auto;
+	}
+
+	&__socials {
+		font-size: 2.5rem;
+
+		i {
+			margin-right: 5rem;
+		}
+
+		i:last-of-type {
+			margin-right: 0;
+		}
+	}
+
+	&__logo {
+		width: 14%;
+	}
+
+	&__copyright {
+		font-weight: bold;
+	}
+}

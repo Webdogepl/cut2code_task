@@ -1,10 +1,22 @@
-<footer>
+<footer class="footer">
 
-    <div class="footer__row">
-        <div class="footer__socials"></div>
-        <div class="footer__logo"></div>
-        <div class="footer__copyright"></div>
-    </div>
+    <article class="footer__row">
+        <div class="footer__socials">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-pinterest"></i>
+            <i class="fa-brands fa-dribbble"></i>
+            <i class="fa-brands fa-behance"></i>
+        </div>
+        <div class="footer__logo">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/logoWhite.png" alt="Logo">
+        </div>
+        <div class="footer__copyright">
+            2020 Copyrights & Protected
+        </div>
+    </article>
 
 </footer>
 
