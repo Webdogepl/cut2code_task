@@ -12,7 +12,7 @@
 		box-sizing: border-box;
 		padding-inline: 8.5%;
 		border-radius: 10px;
-		padding-bottom: 5rem;
+		padding-bottom: 3rem;
 	}
 
 	.statisticsBox {
@@ -22,7 +22,7 @@
 
 		&__title {
 			font-size: 6rem;
-			font-family: $primaryFont;
+			font-family: $roboto;
 			margin-top: 6rem;
 			margin-bottom: 0;
 		}

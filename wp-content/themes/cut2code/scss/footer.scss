@@ -2,7 +2,7 @@
 	background: black;
 	font-family: $poppins;
 	color: white;
-	margin-top: 11rem;
+	margin-top: 10rem;
 	padding: 2.5rem 0;
 	font-size: 1.8rem;
 
@@ -28,6 +28,10 @@
 
 	&__logo {
 		width: 14%;
+
+		img {
+			width: 65%;
+		}
 	}
 
 	&__copyright {

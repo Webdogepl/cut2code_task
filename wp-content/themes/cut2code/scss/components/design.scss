@@ -3,7 +3,7 @@
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
-	margin-top: 6%;
+	margin-top: 9rem;
 	font-family: $poppins;
 
 	&__right {
@@ -14,9 +14,9 @@
 	}
 
 	&__title {
-		font-size: 6em;
-		margin-bottom: 30px;
-		font-family: $primaryFont;
+		font-family: $roboto;
+		font-size: 6rem;
+		margin-bottom: 2rem;
 		margin-top: 2rem;
 	}
 
@@ -37,7 +37,7 @@
 
 		&::before {
 			content: "";
-			background: $primaryColor;
+			background: $primaryColorLight;
 			display: inline-block;
 			width: 1.2rem;
 			height: 1.2rem;
@@ -47,7 +47,7 @@
 	}
 
 	&__button {
-		font-family: $primaryFont;
+		font-family: $roboto;
 		font-size: 2.4rem;
 		font-weight: bold;
 		padding: 0.8em 1.6em;
