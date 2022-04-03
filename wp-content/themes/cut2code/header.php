@@ -12,8 +12,10 @@
     <header class="header">
 
         <div class="header__logo">
-            <img src=<?php get_custom_logo() ?> alt="Logo">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/logoWhite.png" alt="Logo">
         </div>
-        <div class="header__menu"></div>
+        <div class="header__menu">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/icons/hamburger.png" alt="Menu">
+        </div>
 
     </header>
