@@ -4,9 +4,9 @@
 	padding: 2rem;
 	background: $primaryColor;
 	color: white;
-	border: none;
+	border: 3px solid $primaryColor;
 	border-radius: 90px;
-	transition: 1s;
+	transition: 0.6s;
 	width: fit-content;
 	font-weight: 300;
 	cursor: pointer;
@@ -16,9 +16,10 @@
 	}
 
 	&:hover {
-		background: $primaryColor;
-		color: white;
-		transition: 1s;
+		background: white;
+		color: $primaryColor;
+		transition: 0.6s;
+		border: 3px solid $primaryColor;
 	}
 }
 
@@ -29,7 +30,7 @@
 	&:hover {
 		background: $primaryColor;
 		color: white;
-		transition: 1s;
+		border: 3px solid white;
 	}
 }
 
