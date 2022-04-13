@@ -6,6 +6,14 @@
 	padding: 2.5rem 0;
 	font-size: 1.8rem;
 
+	a {
+		color: white;
+	}
+
+	a:hover {
+		color: $primaryColor;
+	}
+
 	&__row {
 		display: flex;
 		justify-content: space-between;
@@ -36,5 +44,21 @@
 
 	&__copyright {
 		font-weight: bold;
+	}
+}
+
+@media (max-width: 768px) {
+	.footer {
+		&__socials {
+			font-size: 1.5rem;
+		}
+
+		&__logo {
+			display: none;
+		}
+
+		&__copyright {
+			font-size: 1.5rem;
+		}
 	}
 }
