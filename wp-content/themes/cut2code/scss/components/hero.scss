@@ -42,3 +42,24 @@
 		}
 	}
 }
+
+@media (max-width: 480px) {
+	.hero {
+		background-size: 100%;
+		background-position: 50% 106%;
+		background-color: $primaryColor;
+		min-height: 100vh;
+
+		&__content {
+			width: 90%;
+			padding-inline: 0;
+			margin-top: 0;
+			padding-top: 20%;
+			margin-inline: 5%;
+		}
+
+		&__buttonsWrapper {
+			width: 100%;
+		}
+	}
+}
