@@ -1,4 +1,4 @@
-<section class="learnMore">
+<section class="learnMore" id="learnMore">
 
     <div class="learnMore__left">
         <img src="<?php echo get_template_directory_uri(); ?>/img/learnMoreBackground.png" alt="Hand with pen">

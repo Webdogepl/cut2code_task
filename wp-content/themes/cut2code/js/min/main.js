@@ -34,3 +34,9 @@ $(".question").click(function () {
 		}
 	}
 });
+
+/*---------- MENU ----------*/
+
+$(".menuToggle").click(function () {
+	$(".nav").toggleClass("nav--active");
+});

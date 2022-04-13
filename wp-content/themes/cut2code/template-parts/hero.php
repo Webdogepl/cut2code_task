@@ -1,4 +1,4 @@
-<section class="hero">
+<section class="hero" id="home">
 
     <div class="hero__content">
         <h1 class="hero__title">Download Our app and enjoy!</h1>

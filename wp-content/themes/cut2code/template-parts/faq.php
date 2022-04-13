@@ -1,4 +1,4 @@
-<section class="faq">
+<section class="faq" id="faq">
 
     <div class="faq__left">
         <img class="faq__questionMark" src="<?php echo get_template_directory_uri(); ?>/img/icons/questionMark.png" alt="Question Mark">

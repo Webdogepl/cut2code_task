@@ -1,4 +1,4 @@
-<section class="features">
+<section class="features" id="features">
 
     <article class="featuresBox">
         <div class="featuresBox__icon">
