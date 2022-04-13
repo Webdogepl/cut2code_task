@@ -9,7 +9,7 @@
 
         <img class="learnMore__icon" src="<?php echo get_template_directory_uri(); ?>/img/icons/learnMore.png" alt="icon">
         <article>
-            <h2 class="learnMore__title">We learnMoreed Perfect
+            <h2 class="learnMore__title">We designed Perfect
                 App for You</h2>
             <p class="learnMore__p">In consequat, quam id sodales hendrerit, eros mi molestie leo an lacinia risus neque tristique augue. Proin tempus urna vel congue elementum. Vestibulum euismod accumsan.</p>
             <ul class="learnMore__list">
