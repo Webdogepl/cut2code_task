@@ -6,4 +6,8 @@
 	width: 73%;
 	margin-inline: 13.5%;
 	margin-block: 2rem;
+
+	&__hamburger {
+		cursor: pointer;
+	}
 }

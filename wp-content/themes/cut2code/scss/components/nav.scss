@@ -1,0 +1,61 @@
+.nav {
+	position: fixed;
+	top: 0;
+	right: 0;
+	height: 100vh;
+	background: white;
+	width: 20%;
+	transition: 0.5s;
+
+	.menu {
+		margin-top: 20%;
+		font-size: 2em;
+		list-style-type: none;
+
+		&-item {
+			line-height: 2em;
+			transition: 0.3s;
+
+			&:hover {
+				color: $primaryColor;
+				font-size: 1.3em;
+				font-weight: bold;
+				transition: 0.3s;
+			}
+		}
+
+		a {
+			color: $primaryColorLight;
+			text-decoration: none;
+		}
+	}
+
+	&--active {
+		width: 0;
+		color: white;
+		transition: 0.5s;
+
+		i {
+			display: none;
+		}
+	}
+
+	&__closeBtn {
+		width: fit-content;
+		float: right;
+		margin-top: 30px;
+		margin-right: 50px;
+		transition: 0.5s;
+		cursor: pointer;
+
+		&:hover {
+			transform: rotate(90deg);
+			transition: 0.5s;
+		}
+
+		i {
+			font-size: 4em;
+			color: $primaryColor;
+		}
+	}
+}

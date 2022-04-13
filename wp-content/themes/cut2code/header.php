@@ -18,8 +18,10 @@
         <div class="header__logo">
             <img src="<?php echo get_template_directory_uri(); ?>/img/logoWhite.png" alt="Logo">
         </div>
-        <div class="header__menu">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/icons/hamburger.png" alt="Menu">
+        <div class="header__hamburger">
+            <img class="menuToggle" src="<?php echo get_template_directory_uri(); ?>/img/icons/hamburger.png" alt="Menu">
         </div>
 
     </header>
+
+    <?php get_template_part('template-parts/nav'); ?>
