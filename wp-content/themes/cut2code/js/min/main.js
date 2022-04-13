@@ -37,6 +37,9 @@ $(".question").click(function () {
 
 /*---------- MENU ----------*/
 
-$(".menuToggle").click(function () {
+function toggleMenu() {
 	$(".nav").toggleClass("nav--active");
-});
+}
+$(".menuToggle").click(toggleMenu);
+
+$(".menu-item").click(toggleMenu);
