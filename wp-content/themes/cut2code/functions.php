@@ -9,6 +9,7 @@
  
  1. Register Styles & Scripts
  2. Theme support
+ 2. Menu
  
  */
 
@@ -34,3 +35,12 @@ add_action('wp_enqueue_scripts', 'register_scripts');
 /* 2. Theme support */
 
 add_theme_support('custom-logo');
+
+
+/* 3. Menu */
+
+function menu()
+{
+	register_nav_menu('menu', __('Menu'));
+}
+add_action('init', 'menu');
