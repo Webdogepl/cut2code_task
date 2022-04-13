@@ -34,6 +34,17 @@ body {
 	overflow-x: hidden;
 	font-family: $poppins;
 	font-size: 10px;
+
+	img {
+		max-width: 100%;
+	}
+}
+
+@media (max-width: 1366px) {
+	html,
+	body {
+		font-size: 5px;
+	}
 }
 
 /**** Components ****/
@@ -41,8 +52,8 @@ body {
 @import "components/buttons";
 
 @import "components/hero";
-@import "components/advantages";
-@import "components/design";
+@import "components/features";
+@import "components/learnMore";
 @import "components/faq";
 @import "components/statistics";
 @import "components/contactUs";
